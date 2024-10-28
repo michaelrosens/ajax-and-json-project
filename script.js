@@ -10,3 +10,11 @@ $(document).ready(function () {
     4: { start: '12:41 PM', end: '1:48 PM' },
     5: { start: '1:53 PM', end: '3:00 PM' }
   }
+
+  $('#submitDay').on('click', function () {
+    const selectedDay = $('#dayInput').val().toUpperCase()
+
+    if (!['A', 'B', 'C', 'D', 'E', 'F', 'G'].includes(selectedDay)) {
+      alert('Please enter a valid day (A-G)')
+      return
+    }
