@@ -6,12 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Where Should I Be Right Now?</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style>
+        body {
+            padding: 20px;
+        }
 
+        .schedule {
+            margin-top: 20px;
+        }
+    </style>
 </head>
-<body>
-    <link rel="stylesheet" href="style.css">
 
+<body>
     <div class="container">
         <h1 class="text-center">Where Should I Be Right Now?</h1>
 
@@ -20,6 +26,7 @@
             <input type="text" id="dayInput" class="form-control" placeholder="Enter a day (A-G)">
             <button id="submitDay" class="btn btn-primary mt-2">Show Schedule</button>
         </div>
+
         <div class="schedule">
             <h3 class="text-center">Your Schedule for the Day</h3>
             <table class="table table-bordered table-striped">
@@ -36,7 +43,9 @@
             </table>
         </div>
     </div>
+
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="script.js"></script>
 </body>
+
 </html>

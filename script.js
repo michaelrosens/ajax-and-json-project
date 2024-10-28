@@ -1,17 +1,12 @@
-"schedule": [
-    {
-      "class": "AP Computer Science",
-      "teacher": "Mr. Kilgore",
-      "room": "203",
-      "period": 1,
-      "days": ["A", "C", "E"]
-    },
-    {
-      "class": "Math Analysis",
-      "teacher": "Ms. Lee",
-      "room": "105",
-      "period": 2,
-      "days": ["B", "D", "F"]
-    }
-  ]
-}
+$(document).ready(function () {
+  const scheduleUrl = 'https://api.npoint.io/1ee8ef6d9a1b0706fec2
+
+'
+
+  const bellSchedule = {
+    1: { start: '8:24 AM', end: '9:31 AM' },
+    2: { start: '9:36 AM', end: '10:43 AM' },
+    3: { start: '10:48 AM', end: '11:55 AM' },
+    4: { start: '12:41 PM', end: '1:48 PM' },
+    5: { start: '1:53 PM', end: '3:00 PM' }
+  }
