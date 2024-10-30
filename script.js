@@ -1,7 +1,7 @@
 $(document).ready(function () {
   const scheduleUrl = 'https://api.npoint.io/1ee8ef6d9a1b0706fec2
 
-'
+)
 
   const bellSchedule = {
     1: { start: '8:24 AM', end: '9:31 AM' },
